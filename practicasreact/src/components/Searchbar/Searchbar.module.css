@@ -1,0 +1,28 @@
+.input{
+  width: 200px;
+  border-radius: 9px 0px 0px 9px;
+  background-color: rgba(255, 255, 255, 0.671);
+  padding: 0px 7px;
+ }
+
+
+.button{
+  width: 80px;
+  border-radius: 0px 9px 9px 0px;
+  background-color: rgb(116, 204, 207);
+  color: black;
+  transition: 0.3s;
+}
+.button:hover{
+  background-color: rgb(66, 166, 170);
+  color: rgb(195, 194, 194);
+}
+
+.input, .button{
+  border: none;
+  outline: none;
+  height:35px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.cardContainer{
+    width: 350px;
+    height: 220px;
+    position: relative;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.closeButton{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: rgb(221, 37, 37);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    top: 7px;
+    right: 7px;
+}
+
+.cityNameTitle{
+    height: 40%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.minMaxTemp{}
+
+.icon{}
+
+.infoContainer{
+    padding: 0px 10px ;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1,h3,h4{
+    font-family: 'Open Sans', sans-serif;
+}
